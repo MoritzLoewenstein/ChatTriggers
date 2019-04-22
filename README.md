@@ -2,7 +2,7 @@
 Plugin to add new Chat Triggers for sourcemod Commands.
 
 ### How to use
-1. Make sure you installed sourcemod and metamod on you csgo Server
+1. Make sure you installed sourcemod and metamod on your csgo Server
 2. Edit `addons/sourcemod/configs/chat_triggers.cfg` and add your new Chat Triggers.
 3. Download .smx from [releases](https://github.com/MoritzLoewenstein/ChatTriggers/releases) and put it in `addons/sourcemod/plugins`
 3. If you have a different Silent Trigger for sourcemod commands, set `sm_triggers_silent_trigger` to the new trigger.
