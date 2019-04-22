@@ -35,8 +35,6 @@ script:
 after_success:
 	- cd ../../../..
 	- cp -rv build-env/addons/sourcemod/plugins/. $PLUGINS
-	- cd $PLUGINS
-	- find . -type f -exec curl --user $FTPUSER:$FTPPASS --ftp-create-dirs -T {} ftp://$HOME/$SOURCEMOD/{} \;
 
 notifications:
 		email: false
