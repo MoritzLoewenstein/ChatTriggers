@@ -1,5 +1,4 @@
 ## ChatTriggers
-Plugin to add new Chat Triggers for sourcemod Commands.
 
 ### How to use
 1. Make sure you installed sourcemod and metamod on your csgo Server
