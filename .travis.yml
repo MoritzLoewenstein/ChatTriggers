@@ -10,7 +10,7 @@ env:
 		- SCRIPTING=addons/sourcemod/scripting/
 		- PLUGINS=addons/sourcemod/plugins/
 	matrix:
-		- SOURCEMOD=1.8
+		- SOURCEMOD=1.9
 
 before_install:
 	- mkdir build-env
@@ -18,7 +18,7 @@ before_install:
 install:
 	- cd build-env
 	- wget -q "http://www.sourcemod.net/latest.php?version=1.9&os=linux" -O sourcemod.tar.gz
-	- tar -xzvf sourcemod-1.8.0-git6002-linux.tar.gz
+	- tar -xzvf sourcemod-1.9.0-git6276-linux.tar.gz
 	- cd ../
 	- find build-env/addons/sourcemod/scripting/ -name "*.sp" -type f -delete
 	- cp -rv $SCRIPTING/. build-env/addons/sourcemod/scripting/
