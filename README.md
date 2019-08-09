@@ -10,7 +10,7 @@
 ### chat_triggers.cfg
 
 - If you leave the example in, `example` in Chat triggers the sourcemod admin command
-- Just put you new trigger in quotes on the left side, and the command you want to trigger
+- Just put your new trigger in quotes on the left side, and the command you want to trigger
   in quotes on the right side, but dont write sm_admin to trigger the admin command, 
   just admin like in the example is enough.
   
