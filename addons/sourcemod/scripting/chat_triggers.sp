@@ -45,7 +45,7 @@ public Action OnClientSayCommand(int client, const char[] command, const char[] 
 
 public void LoadChatTriggers() {
 	char path[PLATFORM_MAX_PATH];
-	BuildPath(Path_SM, path, sizeof(path), "configs/chat_triggers+.cfg");
+	BuildPath(Path_SM, path, sizeof(path), "configs/chat_triggers.cfg");
 	KeyValues kv = new KeyValues("Chat Triggers");
 	if (!FileToKeyValues(kv, path))
 		SetFailState("The configuration file could not be read.");
